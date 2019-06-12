@@ -1,0 +1,53 @@
+<head>
+    <meta charset="utf-8">
+    <title>Desafio do Muro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style>
+        .padding-muro {
+            display: block;
+            height: 2px;
+            width: 100%;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body>
+	<center>
+    <div class="row">
+        <div class="col-12">
+            <h2>
+                Desafio do Muro
+                <button type="button" id="reset" class="btn btn-primary">Resetar</button>
+            </h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="screen"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <button type="button" id="executarQua" class="btn btn-success">
+                Executar algorítmo O(n²)
+            </button>
+            <button type="button" id="executarLin" class="btn btn-success">
+                Executar algorítmo O(n)
+            </button>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div id="movements"></div>
+        </div>
+    </div>
+	</center>
+</body>
