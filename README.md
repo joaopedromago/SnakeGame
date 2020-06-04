@@ -9,3 +9,12 @@ A idéia de criar esse jogo vem de "um sonho de infância", que era de um dia cr
 O código é estruturado, pois na época eu estava aprendendo a linguagem C e queria (de uma forma de aprendizado) desenvolve-lo em C também, embora eu não tenha terminado esse projeto hehehe.
 
 
+## Requerimentos
+### .net core 3.1
+https://dotnet.microsoft.com/download/dotnet-core/3.1
+
+### Como executar
+
+```
+dotnet run
+```
