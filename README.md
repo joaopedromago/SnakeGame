@@ -11,8 +11,8 @@ O código é estruturado, pois na época eu estava aprendendo a linguagem C e qu
 ![](how_it_works.gif)
 
 ## Requerimentos
-### .net core 3.1
-https://dotnet.microsoft.com/download/dotnet-core/3.1
+### dotnet
+https://dotnet.microsoft.com/en-us/download
 
 ### Como executar
 
